@@ -1,7 +1,7 @@
 js-yaml-concat-seqs
 ===================
 
-[![CI](https://github.com/kristian/js-yaml-concat-seqs/workflows/CI/badge.svg?branch=main)](https://github.com/kristian/js-yaml-concat-seqs/actions)
+[![CI](https://github.com/kristian/js-yaml-concat-seqs/actions/workflows/ci.yml/badge.svg)](https://github.com/kristian/js-yaml-concat-seqs/actions/workflows/ci.yml)
 [![NPM version](https://img.shields.io/npm/v/js-yaml-concat-seqs.svg)](https://www.npmjs.org/package/js-yaml-concat-seqs)
 
 This `js-yaml` type is inspired by [Ingy döt Net](https://github.com/ingydotnet) comment in the original [`Yaml Issue #48`](https://github.com/yaml/yaml/issues/48#issuecomment-974998500) discussing merging sequences. He suggested that a tag is a valid option to denote merging of sequences, or how he called it `!concat-seqs`. I took the type system from the original `js-yaml` library and extended it with a one-line extension for the `concat-seqs` function as proposed.
