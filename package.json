@@ -1,0 +1,48 @@
+{
+  "name": "js-yaml-concat-seqs",
+  "version": "1.0.0",
+  "description": "js-yaml concatenate / merge sequences / arrays",
+  "keywords": [
+    "yaml",
+    "parser",
+    "seqs",
+    "sequence",
+    "sequences",
+    "arr",
+    "array",
+    "arrays",
+    "concat",
+    "concatenate",
+    "merge",
+    "join",
+    "extend",
+    "anchor",
+    "alias"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "c8 ava"
+  },
+  "engines": {
+    "node": ">= 11"
+  },
+  "author": {
+    "name": "Kristian Kraljic",
+    "email": "kris@kra.lc",
+    "url": "https://kra.lc/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristian/js-yaml-concat-seqs.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^6.1.2",
+    "c8": "^9.1.0",
+    "js-yaml": "^4.1.0"
+  },
+  "peerDependencies": {
+    "js-yaml": "4.x"
+  }
+}
