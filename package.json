@@ -1,6 +1,6 @@
 {
   "name": "js-yaml-concat-seqs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "js-yaml concatenate / merge sequences / arrays",
   "keywords": [
     "yaml",
@@ -21,6 +21,9 @@
   ],
   "type": "module",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "c8 ava"
   },
